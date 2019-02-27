@@ -1,9 +1,4 @@
 rankall <- function(outcome, num = "best") {
-  
-  # 'rankhospital' 
-  # find the best hospital in all state for a given outcome
-  # as a function of 'outcome' and 'num'
-  #---------------------------------------------------------
   # 1. Read from file to be taken as data:
     data <- read.csv("outcome-of-care-measures.csv")
   

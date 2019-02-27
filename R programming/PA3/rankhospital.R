@@ -1,9 +1,4 @@
 rankhospital <- function(state, outcome, num = "best") {
-
-  # 'rankhospital' 
-  # find the best hospital in a state with a given rank
-  # as a function of 'state', 'outcome' and 'num'
-  #---------------------------------------------------------
   # 1. Read from file to be taken as data:
   data <- read.csv("outcome-of-care-measures.csv")
   
